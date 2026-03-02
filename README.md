@@ -84,6 +84,12 @@ If you get "500 Internal Server Error" when uploading:
 | `ADMIN_PASSWORD_HASH` | Output of `password_hash('password', PASSWORD_DEFAULT)` |
 | `WEB_BASE` | Leave empty if app is at root; set to `/subdir` if in subdirectory |
 
+## Demo
+
+A demo instance is available in the `demo/` folder. See [demo/README.md](demo/README.md) for setup. Sign in with **demo** / **demo**.
+
+**Live demo:** https://betteryoutubehistory.blazehost.co/
+
 ## License
 
 This project is licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html).
