@@ -1,0 +1,15 @@
+DirectoryIndex index.php
+
+# Uncomment if .user.ini doesn't work (Apache mod_php only):
+# php_value upload_max_filesize 100M
+# php_value post_max_size 100M
+# php_value memory_limit 256M
+# php_value max_execution_time 300
+
+# Uncomment to enforce HTTPS in production:
+# <IfModule mod_rewrite.c>
+#     RewriteEngine On
+#     RewriteCond %{HTTPS} off
+#     RewriteCond %{HTTP:X-Forwarded-Proto} !https
+#     RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# </IfModule>
