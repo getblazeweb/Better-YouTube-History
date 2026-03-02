@@ -12,9 +12,7 @@ A secure PHP webapp that displays your YouTube watch history in a searchable tim
 
 ## Demo
 
-A demo instance is available in the `demo/` folder. See [demo/README.md](demo/README.md) for setup. Sign in with **demo** / **demo**.
-
-**Live demo:** https://betteryoutubehistory.blazehost.co/
+🔗 **Live demo:** https://betteryoutubehistory.blazehost.co/
 
 ## Requirements
 
