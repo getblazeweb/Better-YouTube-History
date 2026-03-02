@@ -10,6 +10,12 @@ A secure PHP webapp that displays your YouTube watch history in a searchable tim
 - **Secure login** – Single-user auth with optional TOTP 2FA
 - **Local storage** – SQLite database; your data stays on your server
 
+## Demo
+
+A demo instance is available in the `demo/` folder. See [demo/README.md](demo/README.md) for setup. Sign in with **demo** / **demo**.
+
+**Live demo:** https://betteryoutubehistory.blazehost.co/
+
 ## Requirements
 
 - PHP 8.1+ with PDO SQLite, JSON, OpenSSL
@@ -83,12 +89,6 @@ If you get "500 Internal Server Error" when uploading:
 | `ADMIN_USERNAME` | Login username |
 | `ADMIN_PASSWORD_HASH` | Output of `password_hash('password', PASSWORD_DEFAULT)` |
 | `WEB_BASE` | Leave empty if app is at root; set to `/subdir` if in subdirectory |
-
-## Demo
-
-A demo instance is available in the `demo/` folder. See [demo/README.md](demo/README.md) for setup. Sign in with **demo** / **demo**.
-
-**Live demo:** https://betteryoutubehistory.blazehost.co/
 
 ## License
 
