@@ -36,8 +36,6 @@ A secure PHP webapp that displays your YouTube watch history in a searchable tim
 3. Extract the archive and find `Takeout/YouTube and YouTube Music/history/watch-history.html` (or `watch-history.json` for older exports).
 4. Log in to the app, click **Refresh** in the header, then upload the file.
 
-**Note:** If you previously imported and all dates show as "today", re-import your Takeout file—the parser correctly extracts watch dates. Channel links require a fresh import to populate `channel_url`.
-
 ## Project Structure
 
 ```
